@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Custom styles */
+        .profile-img {
+            width: 100%; /* Make the image take up the full width of its container */
+            height: auto;
+            max-height: 80vh; /* Limit the height to 80% of the viewport height */
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .about-me {
+            background-color: beige; /* Beige background for the text box */
+            padding: 20px; /* Add padding inside the text box */
+            border-radius: 10px; /* Rounded corners for the text box */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <img src="../resources/img/Darius.jpeg" alt="Your image description" style="width: 20px; height: 20px; margin-right: 5px;">
+                    
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../resources/img/Evan1.jpeg" alt="Evan Feng's image" class="profile-img"> <!-- Replace with your image -->
+            </div>
+            <div class="col-md-6">
+                <div class="about-me">
+                    <h1>Evan Feng</h1>
+                    <p>Welcome to my personal website! I'm passionate about studying Computer Science and new technologies in AI image recognition and Cybersecurity. I am currently a sophomore at the University of Colorado Boulder. At my time at boulder I am also a part of SASE Society of Asian Scientists and Engineers andTheta Tau Fraternity. Feel free to explore my hobbies and projects to learn more about me!</p>
+                    <a href="resume.html" class="btn btn-primary">View My Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">Connect with me:</p>
+            <a href="https://www.linkedin.com/in/evanfeng1/" target="_blank" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Evancholy1" target="_blank" class="text-white"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
